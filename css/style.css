@@ -32,5 +32,17 @@
     color: #fff;
     padding: 1px;
 }
-
+footer {
+    background-color: #00cba9;
+    padding: 1px;
+}
+/* // Example
+// Apply styles starting from medium devices and up to extra large devices */
+@media (max-width: 767.98px) { 
+    .col {
+        flex:0 0 auto;
+        width:100%;
+        text-align:center!important;
+    }
+ }
 
